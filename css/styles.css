@@ -325,11 +325,11 @@ img {
 .function-caption {
   position: absolute;
   bottom: 0;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 
-  /* padding: 27px 0; */
+  padding: 27px 0;
 
   font-size: 14px;
   line-height: 1.14;
@@ -339,7 +339,7 @@ img {
   color: var(--function-caption-text-color);
   background: rgba(47, 48, 58, 0.8);
   height: 70px;
-  min-width: 370px;
+  width: 100%;
 }
 
 /* --------------------------TEAM-------------------------- */
